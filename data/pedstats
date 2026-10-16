@@ -1,0 +1,64 @@
+#
+#	A:	PedStat type name		(Ignored: MUST be in correct order)
+#
+#	B:	Flee distance			(float)
+#	C:	Heading change rate		(float in degrees)
+#
+#	D:	Fear					(0-100) 100=Scared of everything
+#	E:	Temper					(0-100) 100=Bad Tempered
+#	F:	Lawfullness				(0-100)	100=Boy Scout
+#	G:	Sexiness				(0-100)
+#	H:	Attack strength			(float multiplier to attack damages)
+#	I:	Defend weakness			(float multiplier to received damages)
+#
+#	J:	Shooting Rate			(0-100 to determine how they fight)
+#       
+#
+#	K: 	Default Decision Maker -> 0: group member, 1:cop, 2:rand_norm 3:rand_tough 4:rand_weak
+#									
+#
+#
+#   A                B     C      D   E	  F   G   H     I     J		K
+STAT_PLAYER          0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_COP             0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_MEDIC           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_FIREMAN         0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG1           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG2           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG3           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG4           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG5           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG6           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG7           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG8           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG9           0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GANG10          0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_STREET_GUY      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SUIT_GUY        0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SENSIBLE_GUY    0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GEEK_GUY        0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_OLD_GUY         0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TOUGH_GUY       0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_STREET_GIRL     0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SUIT_GIRL       0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SENSIBLE_GIRL   0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_GEEK_GIRL       0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_OLD_GIRL        0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TOUGH_GIRL      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TRAMP_MALE      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TRAMP_FEMALE    0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TOURIST         0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_PROSTITUTE      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_CRIMINAL        0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_BUSKER          0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_TAXIDRIVER      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_PSYCHO          0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_STEWARD         0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SPORTSFAN       0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SHOPPER         0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_OLDSHOPPER      0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_BEACH_GUY		 0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_BEACH_GIRL		 0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_SKATER			 0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_STD_MISSION	 0.0   50.5    65  65  65  65  3.0   0.4   40	2
+STAT_COWARD 	  	 0.0   50.5    65  65  65  65  3.0   0.4   40	2
